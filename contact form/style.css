@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.loginform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.loginform form{
+    border: .3rem solid rgba(0,0,0,.3);
+    width: 30rem;
+    height: 20rem;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+::selection{
+    background: green;
+    color: #fff;
+}
+.loginform form h1{
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.loginform form span{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-bottom: .3rem;
+    color: rgb(46, 109, 60);
+}
+.loginform form input{
+    padding: 0 .4rem;
+    text-transform: none;
+    color: darkslategrey;
+}
+.loginform form .btn{
+    background: green;
+    color: black;
+    border: .1rem solid black;
+    padding: .2rem;
+    border-radius: .4rem;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.loginform form .btn:hover{
+    background: #fff;
+}
+.loginform form .chkbox,label{
+    padding: .3rem 0;
+    font-size: 1.1rem;
+    color: rgb(46, 109, 60);
+}
+.loginform form p{
+    padding: .3rem 0;
+    display: inline-block;
+    font-size: 1.1rem;
+    color: rgb(46, 109, 60);
+}
+.loginform form a{
+    padding: .3rem 0;
+    font-size: 1.1rem;
+    color: rgb(66, 41, 41);
+}
